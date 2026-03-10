@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216214858130",
+    "project_id": "artstagram-dabcf",
+    "storage_bucket": "artstagram-dabcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216214858130:android:7f804a3d1ee115418a394b",
+        "android_client_info": {
+          "package_name": "com.example.social_media_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCC7SzDpdZqg0KK8tSzJ--F8J-9YZZB0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
