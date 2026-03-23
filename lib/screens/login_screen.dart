@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
       }
     } catch (e) {
       setState(() => _isLoading = false);
-      // Ipapalabas dito ang "Username not found" o "Incorrect password"
+      // Ipapalabas dito ng system ang "Username not found" o "Incorrect password"
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.toString())));
     }
   }

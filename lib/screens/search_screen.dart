@@ -27,7 +27,7 @@ class _SearchPageState extends State<SearchPage> {
     _loadRecentSearches();
   }
 
-  // --- RECENT SEARCH LOGIC ---
+  // RECENT SEARCH LOGIC
   Future<void> _loadRecentSearches() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
