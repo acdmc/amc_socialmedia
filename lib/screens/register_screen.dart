@@ -60,7 +60,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         return;
       }
 
-      // Proceed to register
+      // Proceed to the register
       User? user = await _authService.register(email, password, username);
       if (mounted) {
         setState(() => _isLoading = false);
